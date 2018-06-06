@@ -11,7 +11,8 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * La clase PacienteServlet se encarga de recibir y responder
- * las peticiones que se le envian del jsp.
+ * las peticiones que se le envian del registroPaciente.jsp.
+ * 
  * @author USER
  */
 public class PacienteServlet extends HttpServlet {

@@ -9,7 +9,7 @@ import javax.persistence.PersistenceContext;
 
 /**
  * La clase PacienteDao es la encargada de usar la
- * persistencia para manejar la informacion que gracias a los POJO's
+ * persisencia para manejar la informacion que gracias a los POJO's
  * se obtiene de la base de datos.
  * 
  * @author USER

@@ -12,6 +12,7 @@ import javax.ejb.Local;
 /**
  * La interface PacienteDaoLocal crea metodos 
  * para que la clase PacienteDao los sobreescriba.
+ * 
  * @author USER
  */
 @Local

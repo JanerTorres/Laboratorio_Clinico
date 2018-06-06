@@ -4,9 +4,17 @@
         <servlet-name>PacienteServlet</servlet-name>
         <servlet-class>com.controller.PacienteServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>PdfServlet</servlet-name>
+        <servlet-class>com.controller.PdfServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>PacienteServlet</servlet-name>
         <url-pattern>/PacienteServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PdfServlet</servlet-name>
+        <url-pattern>/PdfServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

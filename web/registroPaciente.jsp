@@ -1,7 +1,7 @@
 <%-- 
     Document   : registroPaciente
     Created on : May 25, 2018, 11:35:41 AM
-    Author     : juan.ortiz26
+    Author     : umbrella
 --%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
@@ -21,8 +21,9 @@
     <div align="center">
         <body  background="img/fondoJSP.jpg" >
             <!--#01DFD7-->
-
-            <h1 style="font-family: times, serif; font-style: oblique " align="center"s>Registrate!!</h1>
+            
+            <div align="left"><img src="img/UmbrellaLogoRe.png" alt="" style='width:34%; height:10%'/></div>
+            <h1 style="font-family: times, serif;  " align="center"s>Regístrate</h1>
 
             <form action="./PacienteServlet" method="POST">
                 <font face="italic,arial">
@@ -30,7 +31,7 @@
 
                     <tr>
 
-                        <th >Cedula</th>
+                        <th >Cédula</th>
 
                         <th><input type="text" name="id" value=""/> </th>
 
@@ -38,7 +39,7 @@
 
                     <tr>
 
-                        <th>nombre</th>
+                        <th>Nombre</th>
 
                         <th> <input type="text" name="nombre" value=""/></th>
 
@@ -46,7 +47,7 @@
 
                     <tr>
 
-                        <th> apellido</th>
+                        <th>Apellido</th>
 
                         <th><input type="text" name="apellidos" value=""/> </th>
 
@@ -54,7 +55,7 @@
 
                     <tr>
 
-                        <th> edad</th>
+                        <th>Edad</th>
 
                         <th> <input type="text" name="edad" value=""/></th>
 
@@ -62,7 +63,7 @@
 
                     <tr>
 
-                        <th> EPS</th>
+                        <th>EPS</th>
 
                         <th> <input type="text" name="eps" value=""/></th>
 
@@ -70,7 +71,7 @@
 
                     <tr>
 
-                        <th> Direccion</th>
+                        <th>Direccion</th>
 
                         <th> <input type="text" name="direccion" value=""/></th>
 
@@ -78,7 +79,7 @@
 
                     <tr>
 
-                        <th> Telefono</th>
+                        <th>Telefono</th>
 
                         <th> <input type="text" name="telefono" value=""/></th>
 
@@ -86,13 +87,16 @@
 
                     <tr>
 
-                        <td colspan="2">
-
-                            <div align="center"><input type="submit" name="action" value="Add" /></div>
-
-
-
+                        <td>
+                            <div align="center"><input type="submit" name="action" value="Add" style='width:100%; height:25px'/></div>
                         </td>
+
+
+                        <td>
+                            
+                            <div align="center"><a href="citas.html" style="text-decoration: none;"><input type="button" name="volver" value="Volver" style='width:100%; height:25px'/></a></div>
+                        </td>
+
 
                     </tr>
 
